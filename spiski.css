@@ -1,0 +1,286 @@
+body{
+   overflow-x: hidden;
+    margin:auto;
+    width:1024px;
+    padding:10px;
+    background-color:  rgb(	99 184 255);
+    font-size:14px;
+}
+
+
+h1{
+    /*margin: 10px 20px 50px 600px;*/
+
+    text-align: center;
+    font-size: 50px;
+    font-style: italic;
+    color:rgb(	0 0 139);
+
+    margin-top: -10px;
+    background: rgb(72, 118, 255,.25);
+    padding: 10px;
+    border-radius: 20px;
+
+}
+.container_button{
+    text-align: center;
+    background: hsl(203, 52%, 40%);
+}
+.btn1:hover{
+    background-color: rgba(	58 95 205);
+    color: white;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+.btn1{
+    /*background: hsl(203, 52%, 40%);*/
+    /*!*border:3px solid #81dbd3;*!*/
+    /*color: lightcyan;*/
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    cursor:pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-color: rgba(	30 144 255);
+    border: 2px solid rgba(140, 190, 188, 0.75);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    /*border-radius: .25rem;*/
+    transition: background-color .15s ease-in-out;
+    transition-property: all;
+    transition-duration: 0.5s;
+    font-family: 'Roboto';
+    font-style: italic;
+}
+
+.rectangl {
+    /*width: 350px;*/
+    display: inline-block;
+    margin-top: 20px;
+    background: rgb(255 130 61);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.animat{
+    position: relative;
+    cursor: pointer;
+    left: 0;
+    transition: left 5s cubic-bezier(0, 0, 1, 1);
+}
+
+.title btn1{
+
+
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    position: relative;
+    z-index: 2;
+}
+
+.title textforwrite{
+    position: relative;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-left-width: 0;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+
+}
+
+.container_lable label{
+    font-family: "Arial Black";
+    font-weight: 100;
+}
+
+.containerItem{
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    /*word-wrap: break-word;*/
+}
+
+.wordlabel{
+    word-wrap: break-word;
+    color: rgba(139 58 58);
+    color: rgba(139 58 58);
+}
+
+.container_lable{
+    display: inline-block;
+    width: 300px;
+    margin: 20px auto;
+    text-align: left;
+    padding: 30px;
+}
+.container_lable button{
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 15px;
+    padding: 0;
+    display: flex;
+    /*background: hsl(168, 47%, 83%);*/
+    border:none;
+    /*color: hsl(229, 94%, 26%);*/
+}
+
+.container_lable label{
+    /*word-wrap: break-word;*/
+    flex: 1;
+}
+
+.checkboxClass{
+    width: 25px;
+    height: 25px;
+    margin-right: 6px;
+}
+.checkboxClass:hover{
+    color: red;
+    border: 2px inset red;
+    transition: 0,9s;
+}
+
+.listForAll{
+    display: flex;
+    justify-content: center;
+    /*margin-top: 10px;*/
+    margin: 10px 0px -60px 0px;
+    /*width: 60px;*/
+}
+
+.container_lable button:hover{
+    /*padding: 0;*/
+    /*background: hsl(168, 11%, 9%);*/
+    /*!*border:none;*!*/
+    /*color: hsl(180, 92%, 90%);*/
+}
+
+.crossOut{
+    rectabackground-color:rgba(255,188,0,255);
+    text-decoration: line-through;
+
+}
+
+
+
+.container_lable_centr{
+    /*background: hsl(168, 47%, 83%);*/
+    margin: 20px 20px 500px 330px;
+    width: 60px;
+
+}
+/*.container_lable label{*/
+/*    background: hsl(170, 22%, 72%);*/
+/*}*/
+
+.listForAll button{
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    cursor:pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-color: rgba(	30 144 255);
+    border: 2px solid rgba(140, 190, 188, 0.75);
+    font-size: 1rem;
+    /*border-radius: .25rem;*/
+    transition: background-color .15s ease-in-out;
+    transition-property: all;
+    transition-duration: 0.5s;
+    font-family: 'Roboto';
+    font-style: italic;
+    padding: 10px 14px; /* Немного отступов */
+    cursor: pointer; /* Указатель/значок руки */
+    float: left; /* Плавают кнопки бок о бок */
+    border-radius: 5%;
+}
+
+.listForAll button:hover{
+    background-color: rgba(	58 95 205);
+    color: white;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+
+
+@keyframes animatio-buttonDelete{
+
+}
+
+.styleButtonDelete{
+    /*opacity: 0;*/
+    height : 32px;
+    marginLeft : 15px;
+    width: 177px;
+    display: flex;
+    justify-content: flex-end;
+}
+.styleButtonDelete:hover{
+    opacity: 1;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+.popupclass:target{
+    opacity: 1;
+    visibility: visible;
+}
+.popup_body{
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 10px;
+}
+.popup_close{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 20px;
+    color: #000;
+    text-decoration: none;
+}
+.popup_content{
+    background-color: thistle;
+    color: #212529;
+    max-width: 800px;
+    padding: 30px;
+    position: relative;
+}
+.popup_text{
+    font-size: 24px;
+    color: rgba(	255 165 79);
+}
+.popup_title{
+    font-size: 40px;
+    margin: 0px 0px 1em 0px;
+}
+
+.containerItem:hover{
+    color: rgba(255 165 79);
+    background-color:rgba(	255 165 79);
+    transition-property: all;
+    transition-duration: 1.3s;
+}
+
+.containerItem button{
+    opacity:0;
+}
+.containerItem:hover button{
+    opacity: 1;
+    transition: opacity .3s;
+}

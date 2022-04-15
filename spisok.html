@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="spiski.css">
+    <title>Document</title>
+</head>
+<body>
+
+<h1>Список дел</h1>
+
+    <form onsubmit="createTasks()" class="title">
+        <input  class="textforwrite" id="textforwrite" type="text">
+        <button class="btn1">сохранить</button>
+    </form>
+<div class="listForAll">
+    <button class="buttonOfMade" id="buttonOfMadeId" onclick="ClickOnButtonOfMade()">сделанные</button>
+    <button class="buttonAll" id="buttonAllId" onclick="ClickOnButtonAll()">все</button>
+    <button class="buttonNotOfMade" id="buttonNotOfMadeId" onclick="ClickOnButtonNotOfMade()">не сделанные</button>
+</div>
+
+
+
+
+<div class="container_lable_centr" >
+    <div class="container_lable" id="textFrom"></div>
+</div>
+
+
+
+
+
+<script src="spisoktwo.js"></script>
+</body>
+</html>
